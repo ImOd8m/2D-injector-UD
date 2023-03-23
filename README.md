@@ -14,12 +14,3 @@ I can see this being used for things other than cheating, such as debugging heav
 
 Acknowledgements:
 To red0x0002 https://www.github.com/red0x0002 : Thank you to for helping me test the injector and giving me tips.
-
-USAGE:
-1 Compile AetherVisor.sys: https://github.com/ImOd8m/2D-injector-UD/
-2 Compile Injector-driver
-3 Compile Injector-client with three parameters in injection_info.h : HOST_DLL_PATH, HOST_DLL_NAME, and ENTRYPOINT_NAME
-4 kdmapper.exe AetherVisor.sys
-5 kdmapper.exe injector-driver.sys
-6 Run Injector-client as administrator
-7 Follow the prompt, provide the target PID and path to your own cheat DLL
